@@ -1,0 +1,13 @@
+{% block content %}
+
+
+
+<section>
+<h1>{{ post.title }}</h1>
+<p>{{ post.body }}
+<p>Created on {{ post.date_created }}</p>
+<p>Last Updated {{ post.date_updated }}</p>
+<p>by {{ post.author }}</p>
+</section>
+
+{% endblock content %}
